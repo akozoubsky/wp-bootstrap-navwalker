@@ -1,5 +1,11 @@
 #CHANGELOG
 
+## [4.4.0]
+- Removed `data-toggle` attribute to align with Bootstrap 5 changes.
+- Updated `class` attribute value from 'dropdown-toggle nav-link' to 'nav-link dropdown-toggle'.
+- Added `role` attribute for improved accessibility.
+- Added `data-bs-toggle` attribute for Bootstrap 5 compatibility.
+
 ## [4.3.0]
 - Added an `aria-current` item.
 - Added `.nav-item` for the `<li>` and `.nav-link` for the `<a>` in fallback function.
